@@ -9,16 +9,15 @@
 </head>
 <body>
     <nav>
-        <!-- <h1>DAVID.</h1><h1>INSPO</h1> -->
-        <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/1/1d/Stussy_Logo.svg" alt="logo" class="web-logo"></a>
-        <div>
-        <a href="#shop" class="shop">Shop</a>
-            <div class="dropdown" style="left:1">
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/en/1/1d/Stussy_Logo.svg" alt="logo" class="web-logo"></a>
+        <div class="maindrop">
+            <a href="#shop" class="shop" onclick="myFunction()">Shop</a>
+            <div class="dropdown" id="myDropdown" style="left:1">
                 <a href="#">New</a>
                 <a href="#">Tees</a>
                 <a href="#">Sweats</a>
                 <a href="#">Outerwear</a>
-                <a href="#">Tops & Shirts</a>
+                <a href="#">Shirts</a>
                 <a href="#">Knits</a>
                 <a href="#">Pants</a>
                 <a href="#">Shorts</a>
@@ -26,6 +25,13 @@
                 <a href="#">Accesories</a>
                 <a href="#">Eyewear</a>
                 <a href="#">All</a>
+            <div class="sub-dropdown">
+                <a href="#">Country (Usd)</a>
+                <a href="#">Account</a>
+                <a href="#">Contact</a>
+                <a href="#">Features</a>
+                <a href="#">Chapters</a>
+            </div>
             </div>
         </div>
         <ul>
@@ -34,12 +40,12 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <a href="#">Search</a>
-        <a href="#">Bag</a>
+        <a href="#" id="search" class="shop" onclick="myFunctionsearch()">Search</a>
+        <a href="#" onclick="myFunctionbag()">Bag</a>
     </nav>
     <div class="grid-container">
         <div class="imagemain">
-            <a href="https://www.stussy.com/blogs/features/stussy-spring-23-lookbook" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0343/3988/1005/files/3495-09_Retouched_A_2023-01-24_900x.jpg?v=1675110829" alt="stussypic1" class="stussypic"></a>
+            <a href="#"><img src="https://cdn.shopify.com/s/files/1/0343/3988/1005/files/3495-09_Retouched_A_2023-01-24_900x.jpg?v=1675110829" alt="stussypic1" class="stussypic"></a>
             <div class="overlay">
                 <div class="text">
                     <h1>Stussy</h1>
@@ -73,7 +79,16 @@
                     <p>Nike</p>
                 </div>
             </div>
-        </div>    
+        </div>
+        <!-- <div class="imagemain">
+            <a href="#"><img src="https://cdn.shopify.com/s/files/1/0343/3988/1005/files/11_2048x.jpg?v=1676309871" alt="stussypic5" class="stussypic"></a>
+            <div class="overlay">
+                <div class="text">
+                    <h1>Stussy</h1>
+                    <p>Levi Strauss</p>
+                </div>
+            </div>
+        </div>     -->
     </div>
     <div class="footericons">
         <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077042.png" alt="instalogo" class="logo"></a>
